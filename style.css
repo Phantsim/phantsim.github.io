@@ -1,1 +1,53 @@
 /*nothing crazy here will lock in tomrrow and actually put stuff in here*/
+
+/* 
+    FRONT PAGE
+*/
+
+.center-text{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts-header{
+    font-size: 18px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts-row{
+    display: inline-block;
+    text-align: left;
+}
+
+.contacts-item{
+    padding: 10px;
+}
+
+.fp-header{
+    text-align: center;
+    line-height: 0.65;
+}
+
+/*
+    IMAGES
+*/
+
+.small-img{
+    width: 280px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
