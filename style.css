@@ -1,4 +1,20 @@
-/*nothing crazy here will lock in tomrrow and actually put stuff in here*/
+/* WORRY ABOUT THE CONTENT FIRST. CLEAN UP THE APPEARNACE LATER.*/
+
+
+/*
+    UNIVERSAL STYLING
+*/
+
+:root {
+
+    /* Text */
+    --font: Calibri;
+
+}
+
+body {
+    font-family: var(--font);
+}
 
 /* 
     FRONT PAGE
@@ -11,28 +27,39 @@
     margin-right: auto;
 }
 
+.no-list-icon{
+    list-style-type: none;
+}
+
+    /* CONTACTS */
+
 .contacts-header{
     font-size: 18px;
     margin-bottom: 6px;
     margin-top: 6px;
 }
 
+/* get help on this in discord or the prof both are good */
+
 .contacts{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    table-layout: fixed;
+    width: auto;
     font-size: 16px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.contacts-row{
-    display: inline-block;
-    text-align: left;
+    border-collapse: collapse;
+    /* background-color: aqua; */
 }
 
 .contacts-item{
     padding: 10px;
+    /* border: 2px solid #a570fa; */
+}
+
+.icon-img{
+    width: 24px;
+    height: auto;
+    padding: 3px;
 }
 
 .fp-header{
@@ -40,11 +67,25 @@
     line-height: 0.65;
 }
 
+.feature-header{
+    background-color: #a570fa;
+    display: block;
+    margin-right: 37.5vw;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.feature-content{
+    font-size: 16px;
+}
+
 /*
     IMAGES
 */
 
-.small-img{
+.headshot-img{
     width: 280px;
     height: auto;
     display: block;
