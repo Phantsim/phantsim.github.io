@@ -92,3 +92,22 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.small-img{
+    width: 560px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 
+    PROJECT PAGES
+*/
+
+.condensed-paragraph {
+    font-size: 18px;
+    text-indent: 12px;
+    margin-right: 24vw;
+    margin-left: 24px
+}
