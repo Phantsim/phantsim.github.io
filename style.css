@@ -87,7 +87,7 @@ body {
     padding-left: 7px;
     padding-right: 7px;
     font-weight: bold;
-    font-size: 48px;
+    font-size: clamp(5.5vw, 6vw, 7vw);
 }
 
 .feature-content{
@@ -99,7 +99,7 @@ body {
     border-radius: 24px;
     display: block;
     font-weight: bold;
-    font-size: 82px;
+    font-size:clamp(5vw, 6.5vw, 84px);
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 2vmax;
@@ -150,7 +150,7 @@ body {
 }
 
 .small-img{
-    width: 560px;
+    width: 70vw;
     height: auto;
     display: block;
     margin-left: auto;
@@ -173,7 +173,7 @@ body {
     border-radius: 24px;
     display: block;
     font-weight: bold;
-    font-size: 64px;
+    font-size: clamp(6vw, 8vw, 32px);
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 2vmax;
